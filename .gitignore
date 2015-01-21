@@ -6,6 +6,11 @@
 *.user
 *.sln.docstates
 
+# crivaly 20150114 para excluir los backups de gedit
+*~
+*.userprefs
+
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
