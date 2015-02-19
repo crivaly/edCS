@@ -6,6 +6,14 @@ public partial class MainWindow: Gtk.Window
 	public MainWindow (): base (Gtk.WindowType.Toplevel)
 	{
 		Build ();
+
+		Label label=new Label("este lo he añadido por código");
+		label.Visible = true;
+		vBoxMain.Add(label);
+
+
+
+
 	}
 
 	protected void OnDeleteEvent (object sender, DeleteEventArgs a)
